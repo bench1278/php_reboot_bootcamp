@@ -27,6 +27,8 @@
 
 
 		   */
+		   //This function says hello
+		   echo "<h1> Hello World </h1>";
 
 		?>
 
