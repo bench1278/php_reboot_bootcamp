@@ -31,7 +31,24 @@
 
 			 */
 
-		
+		$number1 = 10;
+		$number2 = 20;
+		echo $number1 + $number2 . "<br>";
+
+		$full_name = array(
+		"first_name" => array( "Nayeon", "Jeongyeon", "Momo", "Sana", "Jihyo", "Mina"), 
+		"last_name" => array( "Im", "Yoo", "Hirai", "Minatozaki", "Park", "Myoui")
+		);
+
+		$twice = ['Oldest'=>'Nayeon', 'youngest'=>'Tzuyu'];
+
+	//	print_r($full_name["first_name"][0],$full_name["last_name"][1]);
+
+		echo $twice['Oldest']."<br>";
+
+		echo $full_name["first_name"][3]." ";
+
+		echo $full_name["last_name"][3];
 
 
 		?>
